@@ -51,8 +51,7 @@ Clone the repository (replace `YOUR-USERNAME` with your GitHub
 username):
 
 ``` bash
-git clone https://github.com/YOUR-USERNAME/ai-video-automation-toolkit.git
-cd ai-video-automation-toolkit
+https://github.com/Serge-NSN/ai-video-automation-toolkit.git
 ```
 
 Or use **Code → Download ZIP** on GitHub and extract the files.
