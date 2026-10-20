@@ -1,4 +1,4 @@
-::: {align="center"}
+
 # AI Video Automation Toolkit
 
 **Automate the repetitive parts of AI-assisted video production.**
@@ -325,5 +325,4 @@ includes `tkinter`.
 
 ## License
 
-No license is currently specified. Add a `LICENSE` file if you intend to
-define how others may use, modify, and redistribute this project.
+No license is currently specified. 
