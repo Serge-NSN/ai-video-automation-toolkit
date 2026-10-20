@@ -47,8 +47,7 @@ folders instead of entering paths manually.
 
 ### 1. Download the project
 
-Clone the repository (replace `YOUR-USERNAME` with your GitHub
-username):
+Clone the repository:
 
 ``` bash
 https://github.com/Serge-NSN/ai-video-automation-toolkit.git
