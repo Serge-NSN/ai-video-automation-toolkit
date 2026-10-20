@@ -231,93 +231,36 @@ cropped.
 
 ## Troubleshooting
 
-```{=html}
-<details>
-```
-```{=html}
-<summary>
-```
-`<strong>`{=html}FFmpeg is not recognized or rendering
-fails`</strong>`{=html}
-```{=html}
-</summary>
-```
+### FFmpeg is not recognized or rendering
 Install FFmpeg, ensure it is available on your system `PATH`, and verify
 with `ffmpeg -version`. Also check that the input files exist and the
 output folder is writable.
 
-```{=html}
-</details>
-```
-```{=html}
-<details>
-```
-```{=html}
-<summary>
-```
-`<strong>`{=html}The cropper finds no images`</strong>`{=html}
-```{=html}
-</summary>
-```
+
+### The cropper finds no images
 The selected folder must directly contain `.png`, `.jpg`, `.jpeg`, or
 `.webp` files. Subfolders are not scanned.
 
-```{=html}
-</details>
-```
-```{=html}
-<details>
-```
-```{=html}
-<summary>
-```
-`<strong>`{=html}Scenes are missing or out of order`</strong>`{=html}
-```{=html}
-</summary>
-```
+
+### Scenes are missing or out of order
 The Story Sync Engine pairs sorted image files with SRT entries by
 position. Use clear numbered filenames and ensure the folder contains
 enough images for the subtitle entries.
 
-```{=html}
-</details>
-```
-```{=html}
-<details>
-```
-```{=html}
-<summary>
-```
-`<strong>`{=html}Images are cropped too tightly or the video cuts off
-edges`</strong>`{=html}
-```{=html}
-</summary>
-```
+
+### Images are cropped too tightly or the video cuts off
+edges`
 The cropper detects content using a dark-pixel threshold, so very dark
 scene edges can be trimmed. The video renderer fills a 16:9 frame, which
 can crop the edges of images that do not match the landscape aspect
 ratio.
 
-```{=html}
-</details>
-```
-```{=html}
-<details>
-```
-```{=html}
-<summary>
-```
-`<strong>`{=html}The app will not launch`</strong>`{=html}
-```{=html}
-</summary>
-```
+### The app will not launch
 Run the script from a terminal to see the error. Confirm Python and the
 listed packages are installed, and check that your Python installation
 includes `tkinter`.
 
-```{=html}
-</details>
-```
+
 
 ------------------------------------------------------------------------
 
